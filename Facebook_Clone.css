@@ -1,0 +1,285 @@
+body
+{
+  background-color:rgb(240, 242, 245);
+}
+.Navigation_Box
+{
+
+	height: 70px;
+	background-color: white;
+	margin-top: -6px;
+	margin-left: -8px;
+	margin-right: -8px;
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	padding: 5px;
+}
+.Content_Box
+{
+	background-color:rgb(240, 242, 245);
+	margin-top: 0px;
+	height: 1000px;
+	width: initial;
+	padding-top: 0px;
+	margin: 0px;
+}
+.Cover_Box
+{
+
+	background-color:white;
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: 64px;
+}
+.Cover_Photo_Box
+{
+	margin-left: auto;
+	margin-right: auto;
+	height: 350px;
+	width: 1000px;
+	border-radius: 10px;
+	overflow: unset;
+	position: relative;
+
+}
+.Profile_Photo_Box
+{
+    border: 6px solid white;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	border-radius: 500px;
+	left: 425px;
+	bottom: 30px;
+}
+.Navigation_Box_2
+{
+
+	height: 50px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -50px;
+	border-radius: 10px;
+}
+.Intro_Box
+{
+
+	height: 280px;
+	margin-top: 10px;
+	width: 330px;
+	margin-left: 165px;
+	padding-top: 15px;
+	padding-left: 10px;
+	background-color: white;
+	border-radius: 10px;
+	
+}
+.Post_Box
+{
+	height: 120px;
+	margin-top: -295px;
+	width: 605px;
+	margin-left: 560px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 5px;
+	position: relative;
+		
+}
+.profile
+{
+	height: 150px;
+	width: 150px;
+	border-radius: 500px;
+}
+.cover
+{
+	height: 300px;
+	width: 800px;
+	margin-left: 100px;
+	border-radius: 7px;
+}
+ text
+{
+  font-size: 1.35rem;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.box 
+{
+	height: 50px;
+	width: 1000px;
+	margin-left: 165px;
+	margin-top: 65px;
+	border-top: 1px solid  grey;
+}
+ul
+{
+	list-style: none;
+}
+.box li 
+{
+	font-size: 15px;
+	padding: 10px;
+	text-align: center;
+	margin-right:70px;
+	display: inline;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer; 
+}
+.box li:hover
+{
+  background-color:rgb(240, 242, 245);
+}
+.Navigation_Box li 
+{
+	font-size: 15px;
+	padding: 10px;
+	text-align: center;
+	margin-right:0px;
+	display: inline;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	border-radius: 5px; 
+}
+insti
+{
+	font-size: 15px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Intro_Box img
+{
+	width: 17px;
+	height: 17px;
+	float: left;
+}
+.Post_Box img
+{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	border-radius: 50px;
+	top: 16px;
+	float: left;
+}
+.Post_Box input[type=text]
+{
+  padding: 10px;
+  width: 400px;
+  position: absolute;
+  top: 19px;
+  left: 54px;
+  border-radius: 20px;
+  background-color: rgb(240, 242, 245);
+  border: 0px;
+}
+.Post_Box input[type=submit]
+{
+	position: absolute;
+	left: 54px;
+	top: 70px;
+	width: 100px;
+	border: 0px;
+	height: 30px;
+	border-radius: 10px;
+}
+li img
+{
+	width: 140px;
+	height: 50px;
+	float: left;
+	margin: 0px;
+}
+li input
+{
+	height: 35px;
+	width: 200px;
+	border-radius: 10px;
+	border-width: 0px;
+	background-color:rgb(240, 242, 245);
+	float: right;
+	margin-right: 10px;
+	text-align: center;
+}
+.Photo_Box 
+{
+	height: 330px;
+	margin-left: 165px;
+	margin-top: -180px;
+	width: 330px;
+	padding-left: 20px;
+	padding-top: 15px;
+	border-radius: 10px;
+	position: relative;
+	background-color: white;
+}
+.min_box
+{
+	background-color:white;
+	position: absolute;
+	height: 100px;
+	width: 330px;
+	border-radius: 10px;
+}
+.side_img
+{
+	width: 100px;
+	height: 90px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	cursor: pointer;
+}
+.mid_img
+{
+	width: 100px;
+	height: 90px;
+	cursor: pointer;
+}
+.last_img
+{
+	width: 100px;
+	height: 90px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	cursor: pointer;
+}
+.Dark_Mode
+{
+	float: right;
+	width: 50px;
+	border: 1px solid black;
+	border-radius: 10px;
+	cursor: pointer;
+	background-color:white;
+	color: black;
+}
+.Drag_Box
+{
+	height: 100px;
+	margin-left: 380px;
+	width: 605px;
+	margin-top: 20px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 20px;
+}
+.post_con
+{
+	height: 100px;
+	margin-left: 380px;
+	width: 605px;
+	margin-top: -400px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 20px;
+}

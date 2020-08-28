@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Profile</title>
+</head>
+<link rel="stylesheet" type="text/css" href="Facebook_Clone.css">
+<script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+<script>
+$('document').ready(function(){
+	$(".Dark_Mode").click(function(){
+	    $(this).css('background-color','black');
+		$(this).css('color','black');
+		$('body').css("background-color","black");
+		$('.Content_Box').css("background-color","black");
+		$('.Cover_Box').css("background-color","rgb(36, 37, 38)");
+		$('li').css('color','white');
+		$('.Intro_Box').css('background-color','rgb(36, 37, 38)');
+		$('.Post_Box').css('background-color','rgb(36, 37, 38)');
+		$('insti').css('color','white');
+		$('text').css('color','white');
+		$('.Photo_Box').css('background-color','rgb(36, 37, 38)');
+		$('.min_box').css('background-color','rgb(36, 37, 38)');
+		$('.Navigation_Box').css('background-color','rgb(36, 37, 38)');
+		$('h1').css('color','white');
+		$('.Drag_Box').css('background-color','rgb(36, 37, 38)');
+		$('p').css('color','white');
+		$('.post_con').css('background-color','rgb(36, 37, 38)');
+		$('#write').css('color','white');
+	});
+	$('.Dark_Mode').dblclick(function(){
+	   $('li').css('color','black');
+	   $(this).css('color','black');
+	   $(this).css('background-color','white');
+	   $('body').css("background-color","rgb(240, 242, 245)");
+       $('.Content_Box').css("background-color","rgb(240, 242, 245)");
+	   $('.Cover_Box').css("background-color","white");
+	   $('.Intro_Box').css('background-color','white');
+	   $('.Post_Box').css('background-color','white');
+	   $('insti').css('color','black');
+	   $('text').css('color','black');
+	   $('.Photo_Box').css('background-color','white');
+	   $('.min_box').css('background-color','white');	
+	   $('.Navigation_Box').css('background-color','white');
+	   $('h1').css('color','black');
+	   $('.Drag_Box').css('background-color','white');   
+	   $('p').css('color','black');
+	   $('.post_con').css('background-color','white');
+	   $('#write').css('color','black');
+	});
+	$('.post').click(function(){
+       var text=document.getElementById('text').value;
+	   document.getElementById('write').innerHTML="";
+	   document.getElementById('write').innerHTML=text; 
+	});
+});
+</script>
+<body>
+<div class="Content_Box">
+<div class="Navigation_Box">
+<ul>
+<li><img src='sac_logo.png'></li>
+<li class="Dark_Mode">Change Theme</li>
+</ul>
+</div>
+<div class="Cover_Box">
+<div class="Cover_Photo_Box">
+<div class="Profile_Photo_Box">
+<img src="profile_pic.jpg" class="profile">
+</div>
+<img src="cover_photo.jpg" class="cover">
+</div>
+<div class="Navigation_Box_2">
+<h1 style="text-align:center;font-family:Arial, Helvetica, sans-serif;font-size:32px;padding-top:0px">Yash Rohera</h1>
+<p style="text-align:center;font-family:Arial, Helvetica, sans-serif;color:rgb(24, 118, 242)">Add Bio</p>
+</div>
+<div class="box">
+<ul class="click">
+<li>Timeline</li>
+<li>About</li>
+<li>Archieve</li>
+<li>More</li>
+</ul>
+</div>
+</div>
+<div class="Intro_Box">
+<text>Intro</text><br><br>
+<img src="work.png">&#160 &#160 &#160 &#160<insti>Former Associate at Alumni Cell,IIT KGP</insti><br><br>
+<img src="insti.png">&#160 &#160 &#160 &#160<insti>Studies at IIT Kharagpur</insti><br><br>
+<img src="insti.png">&#160 &#160 &#160 &#160<insti>Went to Swami Vivekanad high school</insti><br><br>
+<img src="home.png">&#160 &#160 &#160 &#160<insti>Live in Mumbai,Maharashtra</insti><br><br>
+<img src="location.png">&#160 &#160 &#160 &#160<insti>From Mumbai,Maharashtra</insti><br><br>
+<img src="phone.png">&#160 &#160 &#160 &#160<insti>8879689643</insti><br><br>
+<img src="web.png">&#160 &#160 &#160 &#160<insti><a href="https://yashrohera.github.io/yash-rohera/index.html" target="__blank">View My Resume and practice projects</a></insti>
+</div>
+<div class="Post_Box">
+<img src='profile_pic.jpg'>&#160<input id="text" type="text" placeholder="What's on your mind? (Click post and see your content inside the post box)">&#160
+<input type="submit" value="POST" class="post">
+</div>
+</div>
+<div class="Photo_Box">
+<text>Photos</text><br><br>
+<div class="min_box">
+<img src="profile_pic.jpg" class="side_img">
+<img src="img_1.jpg" class='mid_img'>
+<img src="img_2.jpg" class='last_img'>
+</div><br><br><br><br><br>
+<div class="min_box">
+<img src="img_3.jpg" class="side_img">
+<img src="cover_photo.jpg" class='mid_img'>
+<img src="img_4.jpg" class='last_img'>
+</div><br><br><br><br><br>
+<div class="min_box">
+<img src="img_5.jpg" class="side_img">
+<img src="img_6.jpg" class='mid_img'>
+<img src="img_7.jpg" class='last_img'>
+</div>
+<div class="post_con">
+<text>Post</text><br><br>
+<div id="write"></div>
+</div>
+<div class="Drag_Box">
+<text>Why I want to be a part of the Students' Alumni Cell?</text>
+<p>I was an associate in the Students' Alumni Cell in my
+first year so I know the challenges that were faced by the seniors of the cell
+which I believe gave them a lot of learning opportunities.This is the major
+reason that motivates me to work in this challenging environment that 
+provides generous opportunities for learning.</p>
+</div>
+</body>
+</html>
